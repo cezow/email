@@ -33,7 +33,7 @@ STEPS:
     - celery -A emailapp flower
 11. Run Django Server, by the command in a terminal:
     - python manage.py runserver 
-12. in a browser open tabs:
+12. Open tabs in a browser:
     - 127.0.0.1:8000/api/mailbox
     - 127.0.0.1:8000/api/template
     - 127.0.0.1:8000/api/email
