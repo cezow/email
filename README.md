@@ -11,7 +11,7 @@ STEPS:
     - pip install virtualenv
     - virtualenv venv
     - venv\Scripts\activate (for Windows), or: source venv/bin/activate (for Linux {Ubuntu})      
-6.  In file .env change <username>, <password> and <db_name> filling your own username, passowrd and database name just created (step 3.), save the file
+6.  In file .env change <username>, <password> and <db_name> filling your own username, password and database name just created (step 3.), save the file
 7.  Install Redis and start a broker's server
     - for Windows:
       - extract Redis-x64-3.2.10.zip file from email\emailapp folder
